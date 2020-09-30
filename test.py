@@ -26,5 +26,6 @@ img_captcha_base64 = browser.execute_async_script("""
      }, false);
      ele.dispatchEvent(new Event('load'));
      """, captcha)
-
+import psutil
+print(psutil.virtual_memory().percent)
 print(img_captcha_base64)

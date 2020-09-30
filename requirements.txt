@@ -1,4 +1,4 @@
-
+psutil
 waitress==1.4.4
 gunicorn
 absl-py==0.10.0

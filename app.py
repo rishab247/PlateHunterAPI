@@ -2,6 +2,8 @@ from flask import Flask, jsonify, request, make_response, logging, g
 import json
 import atexit
 import time
+import psutil
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -126,9 +128,9 @@ from selenium.webdriver.chrome.options import Options
 app = Flask(__name__)
 dic = {}
 
-@app.route('/' )
+@app.route('/',methods=['POST'])
 def getcaption(  ):
-    if (data.id == 2):
+    if (data.id == 3):
         data.id = 0
     try:
 
@@ -178,7 +180,7 @@ def getcaption(  ):
         data.store[data.id] = browser
 
         # data.id+=1
-        if(data.id==2):
+        if(data.id==3):
             data.id = 1
         else:
             data.id += 1
@@ -186,7 +188,7 @@ def getcaption(  ):
          # dic[xxx.id] = browser
         # browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt32:CaptchaID"]').send_keys("ans")
         # browser.find_element_by_class_name("ui-button-text").click()
-        return jsonify({ 'msg' : str(img_captcha_base64)[1:] , 'id' : str(data.id-1)}),200
+        return jsonify({ 'msg' : str(img_captcha_base64)[1:] , 'id' : str(data.id-1),'memory':str(psutil.virtual_memory().percent)}),200
     except Exception as e :
             return jsonify({'msg': 'error: '+ str(e)}), 500
 
@@ -357,7 +359,7 @@ def shutdownlitener():
 
 if __name__ == '__main__':
 
-    for i in range(2):
+    for i in range(3):
         data.store[i] = data.new(data)
     # print(data.store)
     # print(dic)
