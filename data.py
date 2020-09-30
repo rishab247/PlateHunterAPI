@@ -25,5 +25,4 @@ class dataclass:
     id =0
 
     def new(self):
-
         return webdriver.PhantomJS()

@@ -130,7 +130,7 @@ dic = {}
 
 @app.route('/',methods=['POST'])
 def getcaption(  ):
-    if (data.id == 5):
+    if (data.id == 4):
         data.id = 0
     try:
 
@@ -180,7 +180,7 @@ def getcaption(  ):
         data.store[data.id] = browser
 
         # data.id+=1
-        if(data.id==5):
+        if(data.id==4):
             data.id = 1
         else:
             data.id += 1
@@ -359,7 +359,7 @@ def shutdownlitener():
 
 if __name__ == '__main__':
 
-    for i in range(5):
+    for i in range(4):
         data.store[i] = data.new(data)
     # print(data.store)
     # print(dic)
