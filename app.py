@@ -126,7 +126,7 @@ from selenium.webdriver.chrome.options import Options
 app = Flask(__name__)
 dic = {}
 
-@app.route('/',methods=['POST'])
+@app.route('/' )
 def getcaption(  ):
     if (data.id == 2):
         data.id = 0
