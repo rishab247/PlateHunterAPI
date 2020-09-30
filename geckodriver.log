@@ -1,0 +1,1033 @@
+1601114091765	geckodriver	INFO	Listening on 127.0.0.1:60305
+1601114093043	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--no-sandbox" "enable-automation" "--disable-infobars" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZrx4ZU"
+*** You are running in headless mode.
+1601114115872	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1601114118349	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1601114118349	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1601114118350	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1601114118350	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1601114145154	geckodriver	INFO	Listening on 127.0.0.1:60886
+1601114145290	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--no-sandbox" "enable-automation" "--disable-infobars" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZjTIGO"
+*** You are running in headless mode.
+1601114149133	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1601114149266	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1601114149267	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1601114149267	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1601114149267	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1601114162311	geckodriver	INFO	Listening on 127.0.0.1:61080
+1601114162340	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--no-sandbox" "enable-automation" "--disable-infobars" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4qmCOk"
+*** You are running in headless mode.
+1601114165384	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1601114165520	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1601114165520	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1601114165520	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1601114165520	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+Exiting due to channel error.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370074,name=PContent::Msg_RegisterBrowsingContextGroup) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370002,name=PContent::Msg_ConstructBrowser) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E00A1,name=PBrowser::Msg_SetUseGlobalHistory) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370127,name=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0070,name=PBrowser::Msg_InitRendering) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E006F,name=PBrowser::Msg_Show) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0072,name=PBrowser::Msg_LoadURL) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370074,name=PContent::Msg_RegisterBrowsingContextGroup) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370002,name=PContent::Msg_ConstructBrowser) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E00A1,name=PBrowser::Msg_SetUseGlobalHistory) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370127,name=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0070,name=PBrowser::Msg_InitRendering) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E006F,name=PBrowser::Msg_Show) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0072,name=PBrowser::Msg_LoadURL) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370074,name=PContent::Msg_RegisterBrowsingContextGroup) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370002,name=PContent::Msg_ConstructBrowser) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E00A1,name=PBrowser::Msg_SetUseGlobalHistory) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370127,name=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0070,name=PBrowser::Msg_InitRendering) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E006F,name=PBrowser::Msg_Show) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0072,name=PBrowser::Msg_LoadURL) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xB4000A,name=PWindowGlobal::Msg_LoadURIInChild) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xB4000A,name=PWindowGlobal::Msg_LoadURIInChild) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xB4000A,name=PWindowGlobal::Msg_LoadURIInChild) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xB4000A,name=PWindowGlobal::Msg_LoadURIInChild) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0074,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0074,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0074,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0074,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+Exiting due to channel error.
+[Parent 3169, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3169, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3169, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370019,name=PContent::Msg_RegisterChrome) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370031,name=PContent::Msg_RegisterStringBundles) Channel error: cannot send/recv
+
+[Parent 3169, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37003B,name=PContent::Msg_AppInfo) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37003C,name=PContent::Msg_RemoteType) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370017,name=PContent::Msg_PScriptCacheConstructor) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37004C,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37004C,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37004C,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37004C,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37000A,name=PContent::Msg_InitRendering) Channel error: cannot send/recv
+
+[Parent 3169, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37000F,name=PContent::Msg_SetProcessSandbox) Channel error: cannot send/recv
+
+[Parent 3169, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37003D,name=PContent::Msg_InitServiceWorkers) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37003E,name=PContent::Msg_InitBlobURLs) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37003F,name=PContent::Msg_InitJSWindowActorInfos) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370062,name=PContent::Msg_SetPluginList) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370068,name=PContent::Msg_SetInputEventQueueEnabled) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37006B,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370069,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37006A,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370008,name=PContent::Msg_InitProcessHangMonitor) Channel error: cannot send/recv
+
+[Parent 3169, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370009,name=PContent::Msg_InitProfiler) Channel error: cannot send/recv
+
+[Parent 3169, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37005E,name=PContent::Msg_SetPermissionsWithKey) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370058,name=PContent::Msg_GMPsChanged) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370058,name=PContent::Msg_GMPsChanged) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370074,name=PContent::Msg_RegisterBrowsingContextGroup) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370002,name=PContent::Msg_ConstructBrowser) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E00A1,name=PBrowser::Msg_SetUseGlobalHistory) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370127,name=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0070,name=PBrowser::Msg_InitRendering) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E006F,name=PBrowser::Msg_Show) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0098,name=PBrowser::Msg_SetDocShellIsActive) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3169, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3169, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3169, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3169, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3169, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3169, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0074,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+1601114175220	addons.xpi	WARN	Exception running bootstrap method startup on screenshots@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+1601114175220	addons.xpi	WARN	Exception running bootstrap method startup on webcompat@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+1601114175220	addons.xpi	WARN	Exception running bootstrap method startup on formautofill@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+1601114175221	addons.xpi	WARN	Exception running bootstrap method startup on doh-rollout@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+Exiting due to channel error.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xB4000D,name=PWindowGlobal::Msg_RawMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xB4000A,name=PWindowGlobal::Msg_LoadURIInChild) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37004C,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3169, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3169, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3169, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0074,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+Exiting due to channel error.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1601114193853	geckodriver	INFO	Listening on 127.0.0.1:61363
+1601114193867	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--no-sandbox" "enable-automation" "--disable-infobars" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaQVi6W"
+*** You are running in headless mode.
+1601114196985	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1601114197105	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1601114197108	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1601114197108	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1601114197108	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+Exiting due to channel error.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3287, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370058,name=PContent::Msg_GMPsChanged) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3287, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+Exiting due to channel error.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3287, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3287, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3287, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3287, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0074,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+1601114198358	addons.xpi	WARN	Exception running bootstrap method startup on doh-rollout@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+1601114198359	addons.xpi	WARN	Exception running bootstrap method startup on formautofill@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+1601114198359	addons.xpi	WARN	Exception running bootstrap method startup on webcompat@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+1601114198359	addons.xpi	WARN	Exception running bootstrap method startup on screenshots@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+Exiting due to channel error.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3287, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3287, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 3287, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0074,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 551: uncaught exception: 2147500037
+JavaScript error: resource://gre/modules/SearchService.jsm, line 710: NS_ERROR_FAILURE: SearchService previously failed to initialize
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 173: Error: Data is not ready.
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: resource://services-common/kinto-offline-client.js, line 603: Error: IndexedDB list() The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1601114787131	geckodriver	INFO	Listening on 127.0.0.1:61778
+1601114787209	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--no-sandbox" "enable-automation" "--disable-infobars" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEVb0Gb"
+*** You are running in headless mode.
+1601114790084	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1601114790197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1601114790197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1601114790200	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1601114790200	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+Exiting due to channel error.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 31, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370058,name=PContent::Msg_GMPsChanged) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 31, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 31, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 31, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+1601114791265	addons.xpi	WARN	Exception running bootstrap method startup on formautofill@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+1601114791266	addons.xpi	WARN	Exception running bootstrap method startup on doh-rollout@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+1601114791266	addons.xpi	WARN	Exception running bootstrap method startup on webcompat@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+1601114791266	addons.xpi	WARN	Exception running bootstrap method startup on screenshots@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+Exiting due to channel error.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E007A,name=PBrowser::Msg_ParentActivated) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0074,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0098,name=PBrowser::Msg_SetDocShellIsActive) Channel error: cannot send/recv
+
+Exiting due to channel error.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xB4000A,name=PWindowGlobal::Msg_LoadURIInChild) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37004C,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+[Parent 31, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 31, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+[Parent 31, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 31, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 31, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 31, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E006F,name=PBrowser::Msg_Show) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0074,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0053,name=PBrowser::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0097,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 31, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 31, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 31, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1845: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 551: uncaught exception: 2147500037
+JavaScript error: resource://gre/modules/SearchService.jsm, line 710: NS_ERROR_FAILURE: SearchService previously failed to initialize
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 370: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: resource://services-common/kinto-offline-client.js, line 603: Error: IndexedDB getLastModified() The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1601120080327	geckodriver	INFO	Listening on 127.0.0.1:62001
+1601120080848	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--no-sandbox" "enable-automation" "--disable-infobars" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9DH50A"
+*** You are running in headless mode.
+1601120094527	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1601120095505	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1601120095506	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1601120095506	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1601120095507	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+Exiting due to channel error.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 44, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370058,name=PContent::Msg_GMPsChanged) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 44, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 44, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 44, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+Exiting due to channel error.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0074,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+1601120106359	addons.xpi	WARN	Exception running bootstrap method startup on screenshots@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+1601120106359	addons.xpi	WARN	Exception running bootstrap method startup on webcompat@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+1601120106360	addons.xpi	WARN	Exception running bootstrap method startup on doh-rollout@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+1601120106360	addons.xpi	WARN	Exception running bootstrap method startup on formautofill@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+Exiting due to channel error.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37004C,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 44, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 44, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 44, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0074,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+Exiting due to channel error.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 551: uncaught exception: 2147500037
+JavaScript error: resource://gre/modules/SearchService.jsm, line 710: NS_ERROR_FAILURE: SearchService previously failed to initialize
+1601120125215	geckodriver	INFO	Listening on 127.0.0.1:62402
+1601120125271	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--no-sandbox" "enable-automation" "--disable-infobars" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLTnbj3"
+*** You are running in headless mode.
+1601120128340	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1601120128801	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1601120128801	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1601120128802	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1601120128802	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+Exiting due to channel error.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 170, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370058,name=PContent::Msg_GMPsChanged) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 170, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 170, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 170, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+Extension error: extension.persistentListeners is undefined resource://gre/modules/ExtensionCommon.jsm:2345 :: clearPrimedListeners@resource://gre/modules/ExtensionCommon.jsm:2345:39
+build@chrome://extensions/content/parent/ext-backgroundPage.js:73:20
+
+1601120133040	addons.xpi	WARN	Exception running bootstrap method startup on webcompat@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+1601120133042	addons.xpi	WARN	Exception running bootstrap method startup on formautofill@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+1601120133042	addons.xpi	WARN	Exception running bootstrap method startup on doh-rollout@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+1601120133042	addons.xpi	WARN	Exception running bootstrap method startup on screenshots@mozilla.org: TypeError: extension.persistentListeners is undefined(resource://gre/modules/ExtensionCommon.jsm:2345:39) JS Stack trace: clearPrimedListeners@ExtensionCommon.jsm:2345:39
+build@ext-backgroundPage.js:73:20
+Exiting due to channel error.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0096,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E007A,name=PBrowser::Msg_ParentActivated) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0074,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0098,name=PBrowser::Msg_SetDocShellIsActive) Channel error: cannot send/recv
+
+[Parent 170, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+Exiting due to channel error.
+[Parent 170, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 170, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 170, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 170, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E006F,name=PBrowser::Msg_Show) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0074,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0053,name=PBrowser::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0097,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 170, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 170, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370032,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 170, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x37001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370128,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1845: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+Exiting due to channel error.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1601120140141	geckodriver	INFO	Listening on 127.0.0.1:62559
+1601120140317	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2Mij4F"
+Error: no DISPLAY environment variable specified
