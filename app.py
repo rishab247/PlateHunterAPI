@@ -216,15 +216,15 @@ def getdata():
 
         # global browser
         print(a_value)
-        browser = data.store[a_value]
-        print(browser.title)
+
 
         try:
+            browser = data.store[a_value]
+            print(browser.title)
             browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt35:CaptchaID"]').send_keys(ans)
             browser.find_element_by_class_name("ui-button-text").click()
         except:
             raise  Exception("Invalid Captcha!")
-
         try:
             time.sleep(0.3)
             browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt14"]/div')
