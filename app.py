@@ -149,7 +149,6 @@ def getcaption(  ):
         # print(2)
         try:
             browser = data.store[data.id]
-
             browser.get('https://parivahan.gov.in/rcdlstatus/vahan/rcDlHome.xhtml')
         except:
             print('break')
@@ -220,8 +219,11 @@ def getdata():
         browser = data.store[a_value]
         print(browser.title)
 
-        browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt35:CaptchaID"]').send_keys(ans)
-        browser.find_element_by_class_name("ui-button-text").click()
+        try:
+            browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt35:CaptchaID"]').send_keys(ans)
+            browser.find_element_by_class_name("ui-button-text").click()
+        except:
+            raise  Exception("Invalid Captcha!")
 
         try:
             time.sleep(0.3)
