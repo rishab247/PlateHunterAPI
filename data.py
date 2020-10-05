@@ -12,7 +12,7 @@ import urllib.request
 import os
 class dataclass:
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
+    # chrome_options.add_argument("--headless")
     # chrome_options.add_argument('--no-proxy-server')
     # chrome_options.add_argument("--proxy-server='direct://'")
     chrome_options.add_argument("--disable-gpu")

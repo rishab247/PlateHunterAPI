@@ -159,7 +159,7 @@ def getcaption(  ):
 
         browser.find_element_by_xpath('//*[@id="form_rcdl:tf_reg_no1"]').send_keys(plateNumber[:-4])
         browser.find_element_by_xpath('//*[@id="form_rcdl:tf_reg_no2"]').send_keys(plateNumber[-4:])
-        captcha = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt35:j_idt40"]')
+        captcha = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt32:j_idt37"]')
         # print(4)
         img_captcha_base64 = browser.execute_async_script("""
              var ele = arguments[0], callback = arguments[1];
@@ -221,7 +221,7 @@ def getdata():
         try:
             browser = data.store[a_value]
             print(browser.title)
-            browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt35:CaptchaID"]').send_keys(ans)
+            browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt32:CaptchaID"]').send_keys(ans)
             browser.find_element_by_class_name("ui-button-text").click()
         except:
             raise  Exception("Invalid Captcha!")
@@ -249,7 +249,7 @@ def getdata():
 
         try:
             x = WebDriverWait(browser, 3).until(
-                EC.presence_of_element_located((By.XPATH, '//*[@id="form_rcdl:j_idt66"]/table/tbody/tr[1]/td[2]')))
+                EC.presence_of_element_located((By.XPATH,'//*[@id="form_rcdl:j_idt64"]/table/tbody/tr[1]/td[2]')))
         except TimeoutException:
             raise  Exception('Invalid Car Number Plate!')
 
@@ -258,68 +258,68 @@ def getdata():
 
         try:
             registrationNumber = browser.find_element_by_xpath(
-                '//*[@id="form_rcdl:j_idt66"]/table/tbody/tr[1]/td[2]').text
+                '//*[@id="form_rcdl:j_idt64"]/table/tbody/tr[1]/td[2]').text
         except:
             pass
 
         try:
             registrationDate = browser.find_element_by_xpath(
-                '//*[@id="form_rcdl:j_idt66"]/table/tbody/tr[1]/td[4]').text
+                '//*[@id="form_rcdl:j_idt64"]/table/tbody/tr[1]/td[4]').text
         except:
             pass
 
         try:
-            chassisNumber = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt66"]/table/tbody/tr[2]/td[2]').text
+            chassisNumber = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt64"]/table/tbody/tr[2]/td[2]').text
         except:
             pass
 
         try:
-            engineNumber = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt66"]/table/tbody/tr[2]/td[4]').text
+            engineNumber = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt64"]/table/tbody/tr[2]/td[4]').text
         except:
             pass
 
         try:
-            ownerName = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt66"]/table/tbody/tr[3]/td[2]').text
+            ownerName = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt64"]/table/tbody/tr[3]/td[2]').text
         except:
             pass
 
         try:
-            vehicleClass = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt66"]/table/tbody/tr[4]/td[2]').text
+            vehicleClass = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt64"]/table/tbody/tr[4]/td[2]').text
         except:
             pass
 
         try:
-            fuelType = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt66"]/table/tbody/tr[4]/td[4]').text
+            fuelType = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt64"]/table/tbody/tr[4]/td[4]').text
         except:
             pass
 
         try:
-            makerOrModel = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt66"]/table/tbody/tr[5]/td[2]').text
+            makerOrModel = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt64"]/table/tbody/tr[5]/td[2]').text
         except:
             pass
 
         try:
-            fitnessUpto = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt66"]/table/tbody/tr[6]/td[2]').text
+            fitnessUpto = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt64"]/table/tbody/tr[6]/td[2]').text
         except:
             pass
 
         try:
-            insuranceUpto = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt66"]/table/tbody/tr[6]/td[4]').text
+            insuranceUpto = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt64"]/table/tbody/tr[6]/td[4]').text
         except:
             pass
 
         try:
-            fuelNorms = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt66"]/table/tbody/tr[7]/td[2]').text
+            fuelNorms = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt64"]/table/tbody/tr[7]/td[2]').text
         except:
             pass
 
         try:
-            roadTaxPaidUpto = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt66"]/table/tbody/tr[7]/td[4]').text
+            roadTaxPaidUpto = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt64"]/table/tbody/tr[7]/td[4]').text
         except:
             pass
 
         try:
-            nocDetails = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt66"]/table/tbody/tr[8]/td[2]').text
+            nocDetails = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt64"]/table/tbody/tr[8]/td[2]').text
         except:
             pass
 
