@@ -15,17 +15,17 @@ browser.get('https://parivahan.gov.in/rcdlstatus/vahan/rcDlHome.xhtml')
 
 print('Opening URL...')
 
-plateNumber = "MH01AE8017"
+plateNumber = "MH12DE1433"
 captchaAnswer = ""
 
 print('Plate Number:', plateNumber)
 
-browser.find_element_by_xpath('//*[@id="form_rcdl:tf_reg_no1"]').send_keys(plateNumber[:-4])
+browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[2]/div/div[3]/input[1]').send_keys(plateNumber[:-4])
 print('Entering first part:',plateNumber[:-4])
-browser.find_element_by_xpath('//*[@id="form_rcdl:tf_reg_no2"]').send_keys(plateNumber[-4:])
+browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[2]/div/div[3]/input[2]').send_keys(plateNumber[-4:])
 print('Entering second part:',plateNumber[-4:])
 
-captcha = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt30:j_idt35"]')
+captcha = browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[3]/div/div[2]/div/div[2]/table/tbody/tr/td[1]/img')
 
 img_captcha_base64 = browser.execute_async_script("""
     var ele = arguments[0], callback = arguments[1];
@@ -42,13 +42,13 @@ img_captcha_base64 = browser.execute_async_script("""
 with open(r"captcha.jpg", 'wb') as f:
     f.write(base64.b64decode(img_captcha_base64))
 captchaAnswer = input()
-browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt30:CaptchaID"]').send_keys(captchaAnswer)
-browser.find_element_by_class_name("ui-button-text").click()
+browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[3]/div/div[2]/div/div[2]/table/tbody/tr/td[3]/input').send_keys(captchaAnswer)
+browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[4]/div/button[1]/span').click()
 
 time.sleep(1)
 
 try:
-    browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt14"]/div')
+    browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[1]/div')
     print('Invalid Captcha!')
     os._exit(0)
 except:
@@ -69,7 +69,7 @@ roadTaxPaidUpto = ""
 nocDetails = ""
 
 try:
-    x = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.XPATH,'//*[@id="form_rcdl:j_idt65"]/table/tbody/tr[1]/td[2]')))
+    x = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.XPATH,'/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[4]/span/div/div/div/div/div/table/tbody/tr[1]/td[2]/span')))
 except TimeoutException:
     print('Invalid Car Number Plate!')
     os._exit(0)
@@ -78,67 +78,67 @@ except:
     os._exit(0)
 
 try:
-    registrationNumber = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt65"]/table/tbody/tr[1]/td[2]').text
+    registrationNumber = browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[4]/span/div/div/div/div/div/table/tbody/tr[1]/td[2]/span').text
 except:
     pass
 
 try:
-    registrationDate = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt65"]/table/tbody/tr[1]/td[4]').text
+    registrationDate = browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[4]/span/div/div/div/div/div/table/tbody/tr[1]/td[4]').text
 except:
     pass
 
 try:
-    chassisNumber = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt65"]/table/tbody/tr[2]/td[2]').text
+    chassisNumber = browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[4]/span/div/div/div/div/div/table/tbody/tr[2]/td[2]').text
 except:
     pass
 
 try:
-    engineNumber = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt65"]/table/tbody/tr[2]/td[4]').text
+    engineNumber = browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[4]/span/div/div/div/div/div/table/tbody/tr[2]/td[4]').text
 except:
     pass
 
 try:
-    ownerName = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt65"]/table/tbody/tr[3]/td[2]').text
+    ownerName = browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[4]/span/div/div/div/div/div/table/tbody/tr[3]/td[2]').text
 except:
     pass
 
 try:
-    vehicleClass = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt65"]/table/tbody/tr[4]/td[2]').text
+    vehicleClass = browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[4]/span/div/div/div/div/div/table/tbody/tr[4]/td[2]').text
 except:
     pass
 
 try:
-    fuelType = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt65"]/table/tbody/tr[4]/td[4]').text
+    fuelType = browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[4]/span/div/div/div/div/div/table/tbody/tr[4]/td[4]').text
 except:
     pass
 
 try:
-    makerOrModel = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt65"]/table/tbody/tr[5]/td[2]').text
+    makerOrModel = browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[4]/span/div/div/div/div/div/table/tbody/tr[5]/td[2]').text
 except:
     pass
 
 try:
-    fitnessUpto = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt65"]/table/tbody/tr[6]/td[2]').text
+    fitnessUpto = browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[4]/span/div/div/div/div/div/table/tbody/tr[6]/td[2]').text
 except:
     pass
 
 try:
-    insuranceUpto = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt65"]/table/tbody/tr[6]/td[4]').text
+    insuranceUpto = browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[4]/span/div/div/div/div/div/table/tbody/tr[6]/td[4]').text
 except:
     pass
 
 try:
-    fuelNorms = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt65"]/table/tbody/tr[7]/td[2]').text
+    fuelNorms = browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[4]/span/div/div/div/div/div/table/tbody/tr[7]/td[2]').text
 except:
     pass
 
 try:
-    roadTaxPaidUpto = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt65"]/table/tbody/tr[7]/td[4]').text
+    roadTaxPaidUpto = browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[4]/span/div/div/div/div/div/table/tbody/tr[7]/td[4]').text
 except:
     pass
 
 try:
-    nocDetails = browser.find_element_by_xpath('//*[@id="form_rcdl:j_idt65"]/table/tbody/tr[8]/td[2]').text
+    nocDetails = browser.find_element_by_xpath('/html/body/form/div[1]/div[3]/div[1]/div/div[2]/div[4]/span/div/div/div/div/div/table/tbody/tr[8]/td[2]/span').text
 except:
     pass
 
